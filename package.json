@@ -1,0 +1,9 @@
+{
+  "name": "kuze",
+  "version": "0.1.0",
+  "description": "Production Web Application Boilerplate Built on Top of Beauty",
+  "main": "src/index.ts",
+  "repository": "https://github.com/jimzhan/kuze",
+  "author": "Jim Zhan <jim.zhan@me.com>",
+  "license": "Apache-2.0"
+}
