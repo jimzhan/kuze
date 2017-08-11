@@ -28,8 +28,8 @@ export class Server extends Koa {
       logger.info('Server is already stopped')
       return
     }
-    return new Promise(function(resolve) {
-      this.instance.close(function() {
+    return new Promise((resolve) => {
+      this.instance.close(() => {
         logger.info('Server is stopped')
         resolve()
       })
